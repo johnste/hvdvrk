@@ -1,0 +1,9 @@
+[ignore]
+.*/node_modules/steal/.*
+[include]
+
+[libs]
+
+[lints]
+
+[options]

@@ -1,0 +1,29 @@
+{
+  "name": "hvdvrk",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "flow": "flow",
+    "watch": "steal-tools live-reload"
+  },
+  "main": "./app/main.js",
+  "author": "",
+  "license": "ISC",
+  "steal": {
+    "configDependencies": ["live-reload"]
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "http-server": "^0.10.0",
+    "lodash": "^4.17.4",
+    "paper": "^0.11.4",
+    "spdy": "^3.4.7",
+    "steal": "^1.5.6",
+    "steal-tools": "^1.8.2"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.53.1"
+  }
+}
